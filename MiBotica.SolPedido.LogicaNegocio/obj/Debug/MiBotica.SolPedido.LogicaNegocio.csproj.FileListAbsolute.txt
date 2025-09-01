@@ -1,0 +1,16 @@
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\MiBotica.SolPedido.LogicaNegocio.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\MiBotica.SolPedido.LogicaNegocio.pdb
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\MiBotica.SolPedido.AccesoDatos.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\MiBotica.SolPedido.Entidades.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\MiBotica.SolPedido.Utiles.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\MiBotica.SolPedido.AccesoDatos.pdb
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\MiBotica.SolPedido.Entidades.pdb
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\MiBotica.SolPedido.Utiles.pdb
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\obj\Debug\MiBotica.SolPedido.LogicaNegocio.csproj.AssemblyReference.cache
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\obj\Debug\MiBotica.SolPedido.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\obj\Debug\MiBotica.FAD9DCE7.Up2Date
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\obj\Debug\MiBotica.SolPedido.LogicaNegocio.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\obj\Debug\MiBotica.SolPedido.LogicaNegocio.pdb
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\log4net.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\log4net.pdb
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\log4net.xml
