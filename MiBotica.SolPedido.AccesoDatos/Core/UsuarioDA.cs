@@ -17,13 +17,11 @@ namespace MiBotica.SolPedido.AccesoDato.Core
             try
             {
                 using (SqlConnection conexion = new SqlConnection(
-    ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
-
-
+                    ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
                 {
                     using (SqlCommand comando = new SqlCommand("paUsuarioLista", conexion))
                     {
-                        comando.CommandType = System.Data.CommandType.StoredProcedure;
+                        comando.CommandType = CommandType.StoredProcedure;
                         conexion.Open();
                         SqlDataReader reader = comando.ExecuteReader();
                         while (reader.Read())
@@ -32,7 +30,6 @@ namespace MiBotica.SolPedido.AccesoDato.Core
                             listaEntidad.Add(entidad);
                         }
                     }
-                    conexion.Close();
                 }
             }
             catch (Exception ex)
@@ -43,23 +40,96 @@ namespace MiBotica.SolPedido.AccesoDato.Core
             return listaEntidad;
         }
 
+        public void InsertarUsuario(Usuario usuario)
+        {
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(
+                    ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
+                {
+                    using (SqlCommand comando = new SqlCommand("paUsuario_insertar", conexion))
+                    {
+                        comando.CommandType = CommandType.StoredProcedure;
+
+                        comando.Parameters.AddWithValue("@CodUsuario", usuario.CodUsuario);
+                        comando.Parameters.AddWithValue("@Clave", usuario.Clave); // byte[]
+                        comando.Parameters.AddWithValue("@Nombres", usuario.Nombres);
+
+                        conexion.Open();
+                        comando.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("❌ Error al insertar usuario: " + ex.Message, ex);
+            }
+        }
+
+        public void ActualizarUsuario(Usuario usuario)
+        {
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(
+                    ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
+                {
+                    using (SqlCommand comando = new SqlCommand("paUsuarioActualizar", conexion))
+                    {
+                        comando.CommandType = CommandType.StoredProcedure;
+
+                        comando.Parameters.AddWithValue("@IdUsuario", usuario.IdUsuario);
+                        comando.Parameters.AddWithValue("@CodUsuario", usuario.CodUsuario);
+                        comando.Parameters.AddWithValue("@Nombres", usuario.Nombres);
+                        comando.Parameters.AddWithValue("@Clave", usuario.Clave);
+
+                        conexion.Open();
+                        comando.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("❌ Error al actualizar usuario: " + ex.Message, ex);
+            }
+        }
+
+        public void EliminarUsuario(int idUsuario)
+        {
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(
+                    ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
+                {
+                    using (SqlCommand comando = new SqlCommand("paUsuarioEliminar", conexion))
+                    {
+                        comando.CommandType = CommandType.StoredProcedure;
+                        comando.Parameters.AddWithValue("@IdUsuario", idUsuario);
+
+                        conexion.Open();
+                        comando.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("❌ Error al eliminar usuario: " + ex.Message, ex);
+            }
+        }
+
+
         private Usuario LlenarEntidad(IDataReader reader)
         {
             Usuario usuario = new Usuario();
 
-            // IdUsuario
             if (ColumnExists(reader, "IdUsuario") && !Convert.IsDBNull(reader["IdUsuario"]))
                 usuario.IdUsuario = Convert.ToInt32(reader["IdUsuario"]);
 
-            // CodUsuario
             if (ColumnExists(reader, "CodUsuario") && !Convert.IsDBNull(reader["CodUsuario"]))
                 usuario.CodUsuario = Convert.ToString(reader["CodUsuario"]);
 
-            // Clave
             if (ColumnExists(reader, "Clave") && !Convert.IsDBNull(reader["Clave"]))
                 usuario.Clave = (byte[])reader["Clave"];
 
-            // Nombres
             if (ColumnExists(reader, "Nombres") && !Convert.IsDBNull(reader["Nombres"]))
                 usuario.Nombres = Convert.ToString(reader["Nombres"]);
 

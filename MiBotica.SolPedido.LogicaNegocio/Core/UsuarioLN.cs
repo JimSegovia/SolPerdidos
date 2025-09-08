@@ -25,5 +25,45 @@ namespace MiBotica.SolPedido.LogicaNegocio.Core
                 throw;
             }
         }
+
+        public void InsertarUsuario(Usuario usuario)
+        {
+            try
+            {
+                objUsuarioDA.InsertarUsuario(usuario);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Error en InsertarUsuario", ex);
+                throw;
+            }
+        }
+
+        public void ActualizarUsuario(Usuario usuario)
+        {
+            try
+            {
+                objUsuarioDA.ActualizarUsuario(usuario);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Error en ActualizarUsuario", ex);
+                throw;
+            }
+        }
+
+        public void EliminarUsuario(int idUsuario)
+        {
+            try
+            {
+                objUsuarioDA.EliminarUsuario(idUsuario);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Error en EliminarUsuario", ex);
+                throw;
+            }
+        }
+
     }
 }
