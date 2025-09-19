@@ -16,3 +16,5 @@ C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.UtilesWeb\bin\Debug\MiBotica.Sol
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.UtilesWeb\bin\Debug\log4net.pdb
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.UtilesWeb\bin\Debug\log4net.xml
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.UtilesWeb\bin\Debug\MiBotica.SolPedido.AccesoDatos.pdb
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.UtilesWeb\bin\Debug\System.Web.Mvc.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.UtilesWeb\bin\Debug\System.Web.WebPages.dll

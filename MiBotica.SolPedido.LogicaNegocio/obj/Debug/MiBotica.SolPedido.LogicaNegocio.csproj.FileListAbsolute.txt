@@ -14,3 +14,5 @@ C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\obj\Debug\MiBotica
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\log4net.dll
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\log4net.pdb
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\log4net.xml
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\System.Web.Mvc.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.LogicaNegocio\bin\Debug\System.Web.WebPages.dll

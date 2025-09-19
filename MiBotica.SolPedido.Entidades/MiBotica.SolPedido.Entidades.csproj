@@ -47,19 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseLN.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="VariablesWeb.cs" />
     <Compile Include="Core\Opcion.cs" />
     <Compile Include="Core\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Parcial\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MiBotica.SolPedido.Utiles\MiBotica.SolPedido.Utiles.csproj">
-      <Project>{19a4fee0-4022-48de-a3b7-a30ffc40d7ed}</Project>
-      <Name>MiBotica.SolPedido.Utiles</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

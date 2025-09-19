@@ -38,6 +38,10 @@
     </body>
     </html>*@
 
+@using MiBotica.SolPedido.Entidades.Core
+@using MiBotica.SolPedido.Utiles.Helpers
+@using MiBotica.SolPedido.Entidades
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -322,46 +326,99 @@
                         </li>
                         <!-- User Account: style can be found in dropdown.less -->
                         <li class="dropdown user user-menu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="../../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                                <span class="hidden-xs">Alexander Pierce</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <!-- User image -->
-                                <li class="user-header">
-                                    <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                            @if (User.Identity.IsAuthenticated && VariablesWeb.gUsuario != null)
+                            {
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    @*<img src="../../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                                        <span class="hidden-xs">Alexander Pierce</span>*@
+                                    <img src="~/Content/dist/img/user8-128x128.jpg" class="user-image" alt="User Image" />
+                                    <span class="hidden-xs">@VariablesWeb.gUsuario.Nombres</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- User image -->
+                                    <li class="user-header">
+                                        <img src="~/Content/dist/img/user8-128x128.jpg" class="img-circle" alt="User Image">
+                                        <p>
+                                            @VariablesWeb.gUsuario.IdUsuario -  @VariablesWeb.gUsuario.Nombres
+                                            <small>Member since Nov. 2012</small>
+                                        </p>
+                                    </li>
+                                    <!-- Menu Body -->
+                                    <li class="user-body">
+                                        <div class="row">
+                                            <div class="col-xs-4 text-center">
+                                                <a href="#">Followers</a>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <a href="#">Sales</a>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <a href="#">Friends</a>
+                                            </div>
+                                        </div>
+                                        <!-- /.row -->
+                                    </li>
+                                    <!-- Menu Footer-->
+                                    <li class="user-footer">
+                                        <div class="pull-left">
+                                            <a href="#" class="btn btn-default btn-flat">Profile</a>
+                                        </div>
+                                        <div class="pull-right">
+                                            <a href="@Url.Action("CerrarSesion", "Login")"
+                                               class="btn btn-default btn-flat">Cerrar Sesion</a>
+                                            @*<a href="#" class="btn btn-default btn-flat">Sign out</a>*@
+                                        </div>
+                                    </li>
+                                </ul>
 
-                                    <p>
-                                        Alexander Pierce - Web Developer
-                                        <small>Member since Nov. 2012</small>
-                                    </p>
-                                </li>
-                                <!-- Menu Body -->
-                                <li class="user-body">
-                                    <div class="row">
-                                        <div class="col-xs-4 text-center">
-                                            <a href="#">Followers</a>
+                            }
+                            else
+                            {
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    @*<img src="../../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">*@
+                                    <img src="~/Content/dist/img/user2-160x160.jpg" class="user-image" alt="User Image" />
+                                    <span class="hidden-xs">Invitado</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- User image -->
+                                    <li class="user-header">
+                                        @*<img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">*@
+                                        <img src="~/Content/dist/img/user2-160x160.jpg" class="user-image" alt="User Image" />
+                                        <p>
+                                            Usuario no autenticado
+                                            <small>Member since Nov. 2012</small>
+                                        </p>
+                                    </li>
+                                    <!-- Menu Body -->
+                                    <li class="user-body">
+                                        @*<div class="row">
+                                              <div class="col-xs-4 text-center">
+                                               <a href="#">Followers</a>
+                                              </div>
+                                              <div class="col-xs-4 text-center">
+                                              <a href="#">Sales</a>
+                                             </div>
+                                               <div class="col-xs-4 text-center">
+                                               <a href="#">Friends</a>
+                                               </div>
+                                            </div>*@
+                                        <!-- /.row -->
+                                    </li>
+                                    <!-- Menu Footer-->
+                                    <li class="user-footer">
+                                        <div class="pull-left">
+                                            @*<a href="#" class="btn btn-default btn-flat">Profile</a>*@
                                         </div>
-                                        <div class="col-xs-4 text-center">
-                                            <a href="#">Sales</a>
+                                        <div class="pull-right">
+                                            <a href="@Url.Action("Index", "Login")" class="btn btn-default btn-flat">Iniciar Sesion</a>
+                                            @*<a href="#" class="btn btn-default btn-flat">Sign out</a>*@
                                         </div>
-                                        <div class="col-xs-4 text-center">
-                                            <a href="#">Friends</a>
-                                        </div>
-                                    </div>
-                                    <!-- /.row -->
-                                </li>
-                                <!-- Menu Footer-->
-                                <li class="user-footer">
-                                    <div class="pull-left">
-                                        <a href="#" class="btn btn-default btn-flat">Profile</a>
-                                    </div>
-                                    <div class="pull-right">
-                                        <a href="#" class="btn btn-default btn-flat">Sign out</a>
-                                    </div>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                            }
                         </li>
+
+
                         <!-- Control Sidebar Toggle Button -->
                         <li>
                             <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
@@ -500,6 +557,13 @@
                             </span>
                         </a>
                     </li>
+
+                    <!-- TU MENÚ DINÁMICO AQUÍ -->
+                    @if (ViewBag.Opciones != null)
+                    {
+                        @Html.HelperMenu((List<Opcion>)ViewBag.Opciones, "Título del Menú")
+                    }
+
                     <li>
                         <a href="../mailbox/mailbox.html">
                             <i class="fa fa-envelope"></i> <span>Mailbox</span>
@@ -579,15 +643,15 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    @RenderSection("seccionTitulo",false)
+                    @RenderSection("seccionTitulo", false)
                     @*General UI
-                    <small>Preview of UI elements</small>*@
+                        <small>Preview of UI elements</small>*@
                 </h1>
                 @*@<ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                    <li><a href="#">UI</a></li>
-                    <li class="active">General</li>
-                </ol>*@
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="#">UI</a></li>
+                        <li class="active">General</li>
+                    </ol>*@
             </section>
 
             <!-- Main content -->
@@ -807,15 +871,20 @@
     </div>
     <!-- ./wrapper -->
     <!-- jQuery 3 -->
-    <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="~/Content/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap 3.3.7 -->
-    <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/Content/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
-    <script src="../../bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="~/Content/bower_components/fastclick/lib/fastclick.js"></script>
     <!-- AdminLTE App -->
-    <script src="../../dist/js/adminlte.min.js"></script>
+    <script src="~/Content/dist/js/adminlte.min.js"></script>
     <!-- AdminLTE for demo purposes -->
-    <script src="../../dist/js/demo.js"></script>
+    <script src="~/Content/dist/js/demo.js"></script>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Content/dist/js/app.min.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
 
