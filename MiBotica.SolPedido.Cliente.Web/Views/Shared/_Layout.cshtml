@@ -330,7 +330,7 @@
                             {
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     @*<img src="../../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                                        <span class="hidden-xs">Alexander Pierce</span>*@
+                                    <span class="hidden-xs">Alexander Pierce</span>*@
                                     <img src="~/Content/dist/img/user8-128x128.jpg" class="user-image" alt="User Image" />
                                     <span class="hidden-xs">@VariablesWeb.gUsuario.Nombres</span>
                                 </a>
@@ -392,16 +392,16 @@
                                     <!-- Menu Body -->
                                     <li class="user-body">
                                         @*<div class="row">
-                                              <div class="col-xs-4 text-center">
-                                               <a href="#">Followers</a>
-                                              </div>
-                                              <div class="col-xs-4 text-center">
-                                              <a href="#">Sales</a>
-                                             </div>
-                                               <div class="col-xs-4 text-center">
-                                               <a href="#">Friends</a>
-                                               </div>
-                                            </div>*@
+                                          <div class="col-xs-4 text-center">
+                                           <a href="#">Followers</a>
+                                          </div>
+                                          <div class="col-xs-4 text-center">
+                                          <a href="#">Sales</a>
+                                         </div>
+                                           <div class="col-xs-4 text-center">
+                                           <a href="#">Friends</a>
+                                           </div>
+                                        </div>*@
                                         <!-- /.row -->
                                     </li>
                                     <!-- Menu Footer-->
@@ -427,6 +427,15 @@
                 </div>
             </nav>
         </header>
+
+
+        @*@Html.HelperMenu(
+        (List<Opcion>)VariablesWeb.gOpciones,
+        "MENU DE OPCIONES"
+        )*@
+
+
+
         <!-- Left side column. contains the logo and sidebar -->
         <aside class="main-sidebar">
             <!-- sidebar: style can be found in sidebar.less -->
@@ -558,11 +567,6 @@
                         </a>
                     </li>
 
-                    <!-- TU MENÚ DINÁMICO AQUÍ -->
-                    @if (ViewBag.Opciones != null)
-                    {
-                        @Html.HelperMenu((List<Opcion>)ViewBag.Opciones, "Título del Menú")
-                    }
 
                     <li>
                         <a href="../mailbox/mailbox.html">
@@ -629,6 +633,7 @@
                         </ul>
                     </li>
                     <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+
                     <li class="header">LABELS</li>
                     <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
                     <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
@@ -645,13 +650,13 @@
                 <h1>
                     @RenderSection("seccionTitulo", false)
                     @*General UI
-                        <small>Preview of UI elements</small>*@
+                    <small>Preview of UI elements</small>*@
                 </h1>
                 @*@<ol class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                        <li><a href="#">UI</a></li>
-                        <li class="active">General</li>
-                    </ol>*@
+                    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li class="active">General</li>
+                </ol>*@
             </section>
 
             <!-- Main content -->
@@ -866,7 +871,7 @@
         </aside>
         <!-- /.control-sidebar -->
         <!-- Add the sidebar's background. This div must be placed
-             immediately after the control sidebar -->
+         immediately after the control sidebar -->
         <div class="control-sidebar-bg"></div>
     </div>
     <!-- ./wrapper -->

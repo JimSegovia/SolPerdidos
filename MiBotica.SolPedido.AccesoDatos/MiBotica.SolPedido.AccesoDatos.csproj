@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\OpcionDA.cs" />
     <Compile Include="Core\UsuarioDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
