@@ -4,10 +4,11 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace MiBotica.SolPedido.Entidades.Base
 {
-    public class BaseLN
+    public class BaseLN : Controller
     {
         protected log4net.ILog Log
         {

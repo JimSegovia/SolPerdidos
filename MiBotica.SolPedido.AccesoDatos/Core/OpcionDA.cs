@@ -1,78 +1,84 @@
-﻿using System;
+﻿using MiBotica.SolPedido.Entidades.Core;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using MiBotica.SolPedido.Entidades.Core;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace MiBotica.SolPedido.AccesoDato.Core
+namespace MiBotica.SolPedido.AccesoDatos.Core
 {
     public class OpcionDA
     {
-        public List<Opcion> ListarOpciones()
-        {
-            List<Opcion> lista = new List<Opcion>();
-
-            try
-            {
-                using (SqlConnection conexion = new SqlConnection(
-                    ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
-                {
-                    string query = @"SELECT IdOpcion, NombreOpcion, UrlOpcion, RutaImagen, NroOrden, IdOpcionRef
-                                     FROM Opcion
-                                     ORDER BY NroOrden";
-
-                    using (SqlCommand comando = new SqlCommand(query, conexion))
-                    {
-                        comando.CommandType = CommandType.Text;
-                        conexion.Open();
-
-                        SqlDataReader reader = comando.ExecuteReader();
-                        while (reader.Read())
-                        {
-                            lista.Add(LlenarEntidad(reader));
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("❌ Error al listar Opciones: " + ex.Message, ex);
-            }
-
-            return lista;
-        }
-
-        private Opcion LlenarEntidad(IDataReader reader)
+        public Opcion LlenarEntidad(IDataReader reader)
         {
             Opcion opcion = new Opcion();
+            reader.GetSchemaTable().DefaultView.RowFilter = "ColumnName='IdOpcion'";
+            if (reader.GetSchemaTable().DefaultView.Count.Equals(1))
+            {
+                if (!Convert.IsDBNull(reader["IdOpcion"]))
+                    opcion.IdOpcion = Convert.ToInt32(reader["IdOpcion"]);
+            }
+            reader.GetSchemaTable().DefaultView.RowFilter = "ColumnName='NombreOpcion'";
+            if (reader.GetSchemaTable().DefaultView.Count.Equals(1))
+            {
+                if (!Convert.IsDBNull(reader["NombreOpcion"]))
+                    opcion.NombreOpcion = Convert.ToString(reader["NombreOpcion"]);
+            }
 
-            if (ColumnExists(reader, "IdOpcion") && !Convert.IsDBNull(reader["IdOpcion"]))
-                opcion.IdOpcion = Convert.ToInt32(reader["IdOpcion"]);
+            reader.GetSchemaTable().DefaultView.RowFilter = "ColumnName='UrlOpcion'";
+            if (reader.GetSchemaTable().DefaultView.Count.Equals(1))
+            {
+                if (!Convert.IsDBNull(reader["UrlOpcion"]))
+                    opcion.UrlOpcion = Convert.ToString(reader["UrlOpcion"]);
+            }
 
-            if (ColumnExists(reader, "NombreOpcion") && !Convert.IsDBNull(reader["NombreOpcion"]))
-                opcion.NombreOpcion = Convert.ToString(reader["NombreOpcion"]);
 
-            if (ColumnExists(reader, "UrlOpcion") && !Convert.IsDBNull(reader["UrlOpcion"]))
-                opcion.UrlOpcion = Convert.ToString(reader["UrlOpcion"]);
+            reader.GetSchemaTable().DefaultView.RowFilter = "ColumnName='RutaImagen'";
+            if (reader.GetSchemaTable().DefaultView.Count.Equals(1))
+            {
+                if (!Convert.IsDBNull(reader["RutaImagen"]))
+                    opcion.RutaImagen = Convert.ToString(reader["RutaImagen"]);
+            }
 
-            if (ColumnExists(reader, "RutaImagen") && !Convert.IsDBNull(reader["RutaImagen"]))
-                opcion.RutaImagen = Convert.ToString(reader["RutaImagen"]);
-
-            if (ColumnExists(reader, "NroOrden") && !Convert.IsDBNull(reader["NroOrden"]))
-                opcion.NroOrden = Convert.ToInt32(reader["NroOrden"]);
-
-            if (ColumnExists(reader, "IdOpcionRef") && !Convert.IsDBNull(reader["IdOpcionRef"]))
-                opcion.IdOpcionRef = Convert.ToInt32(reader["IdOpcionRef"]);
-
+            reader.GetSchemaTable().DefaultView.RowFilter = "ColumnName='NroOrden'";
+            if (reader.GetSchemaTable().DefaultView.Count.Equals(1))
+            {
+                if (!Convert.IsDBNull(reader["NroOrden"]))
+                    opcion.NroOrden = Convert.ToInt32(reader["NroOrden"]);
+            }
+            reader.GetSchemaTable().DefaultView.RowFilter = "ColumnName='IdOpcionRef'";
+            if (reader.GetSchemaTable().DefaultView.Count.Equals(1))
+            {
+                if (!Convert.IsDBNull(reader["IdOpcionRef"]))
+                    opcion.IdOpcionRef = Convert.ToInt32(reader["IdOpcionRef"]);
+            }
             return opcion;
-        }
 
-        private bool ColumnExists(IDataReader reader, string columnName)
+        }
+        public List<Opcion> ListaOpciones()
         {
-            DataTable schemaTable = reader.GetSchemaTable();
-            schemaTable.DefaultView.RowFilter = $"ColumnName='{columnName}'";
-            return (schemaTable.DefaultView.Count > 0);
+            List<Opcion> listaEntidad = new List<Opcion>();
+            Opcion entidad = null;
+            using (SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
+            {
+                using (SqlCommand comando = new SqlCommand("paOpcionLista", conexion))
+                {
+                    comando.CommandType = System.Data.CommandType.StoredProcedure;
+                    conexion.Open();
+                    SqlDataReader reader = comando.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        entidad = LlenarEntidad(reader);
+
+                        listaEntidad.Add(entidad);
+                    }
+                }
+                conexion.Close();
+            }
+            return listaEntidad;
         }
     }
 }

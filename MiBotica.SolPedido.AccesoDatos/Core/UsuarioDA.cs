@@ -66,6 +66,34 @@ namespace MiBotica.SolPedido.AccesoDato.Core
             }
         }
 
+        public Usuario BuscarUsuario(Usuario usuario)
+        {
+            Usuario SegSSOMUsuario = null;
+
+            using (SqlConnection conexion = new SqlConnection(
+                ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
+            {
+                using (SqlCommand comando = new SqlCommand("paUsuario_BuscaCodUserClave", conexion))
+                {
+                    comando.CommandType = CommandType.StoredProcedure;
+                    comando.Parameters.AddWithValue("@Clave", usuario.Clave);
+                    comando.Parameters.AddWithValue("@CodUsuario", usuario.CodUsuario);
+
+                    conexion.Open();
+                    SqlDataReader reader = comando.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        SegSSOMUsuario = LlenarEntidad(reader);
+                    }
+                }
+            }
+
+            return SegSSOMUsuario;
+        }
+
+
+
         public void ActualizarUsuario(Usuario usuario)
         {
             try

@@ -434,9 +434,20 @@
         "MENU DE OPCIONES"
         )*@
 
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                @if (VariablesWeb.gUsuario != null && VariablesWeb.gOpciones != null)
+                {
+                    @Html.HelperMenu(
+                        (List<MiBotica.SolPedido.Entidades.Core.Opcion>)VariablesWeb.gOpciones,
+                        "MENÚ DE OPCIONES"
+                    )
+                }
+            </section>
+        </aside>
 
 
-        <!-- Left side column. contains the logo and sidebar -->
+        @* <!-- Left side column. contains the logo and sidebar -->
         <aside class="main-sidebar">
             <!-- sidebar: style can be found in sidebar.less -->
             <section class="sidebar">
@@ -643,6 +654,7 @@
             <!-- /.sidebar -->
         </aside>
 
+        *@<!-- COMENTAR TODO HASTA AQUI-->
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
@@ -871,7 +883,7 @@
         </aside>
         <!-- /.control-sidebar -->
         <!-- Add the sidebar's background. This div must be placed
-         immediately after the control sidebar -->
+    immediately after the control sidebar -->
         <div class="control-sidebar-bg"></div>
     </div>
     <!-- ./wrapper -->

@@ -8,3 +8,16 @@ C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\obj\Debug\MiBotica.Sol
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\log4net.dll
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\log4net.pdb
 C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\log4net.xml
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.Helpers.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.Mvc.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.Razor.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.WebPages.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.WebPages.Razor.dll
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.Helpers.xml
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.Mvc.xml
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.Razor.xml
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.WebPages.xml
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\ProyectoClase\SolPerdidos\MiBotica.SolPedido.Entidades\bin\Debug\System.Web.WebPages.Razor.xml

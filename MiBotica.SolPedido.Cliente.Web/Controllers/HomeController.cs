@@ -1,4 +1,5 @@
 ﻿using MiBotica.SolPedido.AccesoDato.Core;
+using MiBotica.SolPedido.AccesoDatos.Core;
 using MiBotica.SolPedido.Entidades;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace MiBotica.SolPedido.Cliente.Web.Controllers
 
         {   //RECUPERAR LA LISTA DE OPCIONES
             OpcionDA opcionDA = new OpcionDA();
-            VariablesWeb.gOpciones = opcionDA.ListarOpciones();
+            VariablesWeb.gOpciones = opcionDA.ListaOpciones();
             return View();
         }
 

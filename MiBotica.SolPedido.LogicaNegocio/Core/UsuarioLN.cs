@@ -52,6 +52,19 @@ namespace MiBotica.SolPedido.LogicaNegocio.Core
             }
         }
 
+        public Usuario BuscarUsuario(Usuario Usuario)
+        {
+            try
+            {
+                return new UsuarioDA().BuscarUsuario(Usuario);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex);
+                throw;
+            }
+        }
+
         public void EliminarUsuario(int idUsuario)
         {
             try
