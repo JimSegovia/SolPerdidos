@@ -15,7 +15,7 @@ namespace MiBotica.SolPedido.Entidades.Core
         public int NroOrden { get; set; }
         public int? IdOpcionRef { get; set; }
 
-        // 👇 Necesarias para que funcione ParsearAcciones
+        // Necesarias para que funcione ParsearAcciones
         public string Area { get; set; }
         public string Controladora { get; set; }
         public string Accion { get; set; }

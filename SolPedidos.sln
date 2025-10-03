@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiBotica.SolPedido.UtilesWe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiBotica.SolPedido.Cliente.Web", "MiBotica.SolPedido.Cliente.Web\MiBotica.SolPedido.Cliente.Web.csproj", "{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUsuario", "ApiUsuario\ApiUsuario.csproj", "{8C3979C8-17DA-4C4C-9345-1A24451A5013}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3979C8-17DA-4C4C-9345-1A24451A5013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3979C8-17DA-4C4C-9345-1A24451A5013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3979C8-17DA-4C4C-9345-1A24451A5013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3979C8-17DA-4C4C-9345-1A24451A5013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

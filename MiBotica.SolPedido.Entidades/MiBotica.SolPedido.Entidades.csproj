@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseLN.cs" />
+    <Compile Include="Core\Cliente.cs" />
+    <Compile Include="Filter\ExceptionFilterAtributes.cs" />
     <Compile Include="VariablesWeb.cs" />
     <Compile Include="Core\Opcion.cs" />
     <Compile Include="Core\Usuario.cs" />
