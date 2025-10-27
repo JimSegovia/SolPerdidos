@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiBotica.SolPedido.Entidades.Core
 {
-    public class Cliente
+    public class Clientes
     {
         public int Codigo { get; set; }
         public string NombreCompleto { get; set; }

@@ -7,6 +7,6 @@ namespace ApiUsuario
 {
     public class Variables
     {
-        public static List<Cliente> ListaClientes { get; set; }
+        public static List<Clientes> ListaClientes { get; set; }
 }
 }

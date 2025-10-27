@@ -11,13 +11,13 @@ namespace ApiUsuario.Controllers
     public class ClienteController : ApiController
     {
         // GET: api/Cliente
-        public IEnumerable<Cliente> Get()
+        public IEnumerable<Clientes> Get()
         {
             return Variables.ListaClientes;
         }
 
         // GET: api/Cliente/5
-        public Cliente Get(int id)
+        public Clientes Get(int id)
         {
             return (from x in Variables.ListaClientes
                     where x.Codigo == id
@@ -25,13 +25,13 @@ namespace ApiUsuario.Controllers
         }
 
         // POST: api/Cliente
-        public void Post([FromBody] Cliente value)
+        public void Post([FromBody] Clientes value)
         {
             Variables.ListaClientes.Add(value);
         }
 
         // PUT: api/Cliente/5
-        public void Put(int id, [FromBody] Cliente value)
+        public void Put(int id, [FromBody] Clientes value)
         {
         }
 

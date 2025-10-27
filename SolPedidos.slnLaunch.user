@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ApiUsuario\\ApiUsuario.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
