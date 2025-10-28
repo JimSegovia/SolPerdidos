@@ -311,6 +311,10 @@
       <Project>{72c382d6-5b97-499f-b9ba-75b20919aa4e}</Project>
       <Name>MiBotica.SolPedido.Entidades</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MiBotica.SolPedido.LogicaNegocio\MiBotica.SolPedido.LogicaNegocio.csproj">
+      <Project>{39D50020-BAAC-48A3-B5C0-797B29BEDE61}</Project>
+      <Name>MiBotica.SolPedido.LogicaNegocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "C:\\ProyectoClase\\SolPerdidos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|c:\\proyectoclase\\solperdidos\\mibotica.solpedido.cliente.web\\views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|c:\\proyectoclase\\solperdidos\\mibotica.solpedido.cliente.web\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EECC1A7-E136-4440-B770-4507A0D2C1BD}|MiBotica.SolPedido.AccesoDatos\\MiBotica.SolPedido.AccesoDatos.csproj|c:\\proyectoclase\\solperdidos\\mibotica.solpedido.accesodatos\\core\\clientesda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EECC1A7-E136-4440-B770-4507A0D2C1BD}|MiBotica.SolPedido.AccesoDatos\\MiBotica.SolPedido.AccesoDatos.csproj|solutionrelative:mibotica.solpedido.accesodatos\\core\\clientesda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|c:\\proyectoclase\\solperdidos\\mibotica.solpedido.cliente.web\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|c:\\proyectoclase\\solperdidos\\mibotica.solpedido.cliente.web\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|c:\\proyectoclase\\solperdidos\\mibotica.solpedido.logicanegocio\\core\\clientesln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|solutionrelative:mibotica.solpedido.logicanegocio\\core\\clientesln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|C:\\ProyectoClase\\SolPerdidos\\apiusuario\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|solutionrelative:apiusuario\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|c:\\proyectoclase\\solperdidos\\apiusuario\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|solutionrelative:apiusuario\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.cliente.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EECC1A7-E136-4440-B770-4507A0D2C1BD}|MiBotica.SolPedido.AccesoDatos\\MiBotica.SolPedido.AccesoDatos.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.accesodatos\\core\\opcionda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EECC1A7-E136-4440-B770-4507A0D2C1BD}|MiBotica.SolPedido.AccesoDatos\\MiBotica.SolPedido.AccesoDatos.csproj|solutionrelative:mibotica.solpedido.accesodatos\\core\\opcionda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.logicanegocio\\core\\opcionln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|solutionrelative:mibotica.solpedido.logicanegocio\\core\\opcionln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.logicanegocio\\core\\usuarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|solutionrelative:mibotica.solpedido.logicanegocio\\core\\usuarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|c:\\proyectoclase\\solperdidos\\apiusuario\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|solutionrelative:apiusuario\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|c:\\proyectoclase\\solperdidos\\mibotica.solpedido.cliente.web\\views\\cliente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\views\\cliente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.cliente.web\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.entidades\\core\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|solutionrelative:mibotica.solpedido.entidades\\core\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.entidades\\core\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|solutionrelative:mibotica.solpedido.entidades\\core\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.entidades\\core\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|solutionrelative:mibotica.solpedido.entidades\\core\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.cliente.web\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.cliente.web\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,15 +83,7 @@
       "RelativeMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|solutionrelative:apiusuario\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.entidades\\core\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|solutionrelative:mibotica.solpedido.entidades\\core\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|c:\\proyectoclase\\solperdidos\\apiusuario\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C3979C8-17DA-4C4C-9345-1A24451A5013}|ApiUsuario\\ApiUsuario.csproj|solutionrelative:apiusuario\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|c:\\proyectoclase\\solperdidos\\mibotica.solpedido.cliente.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.cliente.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -71,32 +127,12 @@
       "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\views\\home\\paginanoencontrada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.cliente.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.cliente.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|solutionrelative:mibotica.solpedido.cliente.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EECC1A7-E136-4440-B770-4507A0D2C1BD}|MiBotica.SolPedido.AccesoDatos\\MiBotica.SolPedido.AccesoDatos.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.accesodatos\\core\\opcionda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EECC1A7-E136-4440-B770-4507A0D2C1BD}|MiBotica.SolPedido.AccesoDatos\\MiBotica.SolPedido.AccesoDatos.csproj|solutionrelative:mibotica.solpedido.accesodatos\\core\\opcionda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.logicanegocio\\core\\usuarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|solutionrelative:mibotica.solpedido.logicanegocio\\core\\usuarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.logicanegocio\\core\\opcionln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D50020-BAAC-48A3-B5C0-797B29BEDE61}|MiBotica.SolPedido.LogicaNegocio\\MiBotica.SolPedido.LogicaNegocio.csproj|solutionrelative:mibotica.solpedido.logicanegocio\\core\\opcionln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.entidades\\base\\baseln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72C382D6-5B97-499F-B9BA-75B20919AA4E}|MiBotica.SolPedido.Entidades\\MiBotica.SolPedido.Entidades.csproj|solutionrelative:mibotica.solpedido.entidades\\base\\baseln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EECC1A7-E136-4440-B770-4507A0D2C1BD}|MiBotica.SolPedido.AccesoDatos\\MiBotica.SolPedido.AccesoDatos.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.accesodatos\\core\\usuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EECC1A7-E136-4440-B770-4507A0D2C1BD}|MiBotica.SolPedido.AccesoDatos\\MiBotica.SolPedido.AccesoDatos.csproj|solutionrelative:mibotica.solpedido.accesodatos\\core\\usuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58F5B5F6-ED20-4386-AFE6-326B4CEB2955}|MiBotica.SolPedido.Cliente.Web\\MiBotica.SolPedido.Cliente.Web.csproj|C:\\ProyectoClase\\SolPerdidos\\mibotica.solpedido.cliente.web\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -140,37 +176,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Index.cshtml",
-              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Index.cshtml",
-              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T06:07:57.245Z",
+              "DocumentIndex": 8,
+              "Title": "OpcionDA.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.AccesoDatos\\Core\\OpcionDA.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.AccesoDatos\\Core\\OpcionDA.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.AccesoDatos\\Core\\OpcionDA.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.AccesoDatos\\Core\\OpcionDA.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:10:28.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "UsuarioLN.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\UsuarioLN.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.LogicaNegocio\\Core\\UsuarioLN.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\UsuarioLN.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.LogicaNegocio\\Core\\UsuarioLN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T21:43:15.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Controllers\\ClienteController.cs",
               "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAowJ0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T05:52:05.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T06:07:57.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientesDA.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.AccesoDatos\\Core\\ClientesDA.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.AccesoDatos\\Core\\ClientesDA.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.AccesoDatos\\Core\\ClientesDA.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.AccesoDatos\\Core\\ClientesDA.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T04:20:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\Web.config",
+              "RelativeDocumentMoniker": "ApiUsuario\\Web.config",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\Web.config",
+              "RelativeToolTip": "ApiUsuario\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-28T04:18:42.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Opcion.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Core\\Opcion.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Entidades\\Core\\Opcion.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Core\\Opcion.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.Entidades\\Core\\Opcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T06:16:49.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OpcionLN.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\OpcionLN.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.LogicaNegocio\\Core\\OpcionLN.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\OpcionLN.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.LogicaNegocio\\Core\\OpcionLN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T21:53:02.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Variables.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\Variables.cs",
               "RelativeDocumentMoniker": "ApiUsuario\\Variables.cs",
@@ -178,33 +291,58 @@
               "RelativeToolTip": "ApiUsuario\\Variables.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAArwAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T03:38:27.859Z",
+              "WhenOpened": "2025-10-03T03:38:27.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Create.cshtml",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Create.cshtml",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Create.cshtml",
+              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T03:03:33.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:44:50.53Z",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Edit.cshtml",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Edit.cshtml",
+              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Edit.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T03:59:26.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Core\\Cliente.cs",
-              "RelativeDocumentMoniker": "MiBotica.SolPedido.Entidades\\Core\\Cliente.cs",
-              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Core\\Cliente.cs",
-              "RelativeToolTip": "MiBotica.SolPedido.Entidades\\Core\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Title": "ClientesLN.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\ClientesLN.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.LogicaNegocio\\Core\\ClientesLN.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\ClientesLN.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.LogicaNegocio\\Core\\ClientesLN.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T03:33:39.165Z",
+              "WhenOpened": "2025-10-28T04:21:53.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Web.config",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Web.config",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Web.config",
+              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Web.config",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-27T21:34:24.909Z",
               "EditorCaption": ""
             },
             {
@@ -215,14 +353,88 @@
               "RelativeDocumentMoniker": "ApiUsuario\\Controllers\\ClienteController.cs",
               "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "ApiUsuario\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAArwCEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T03:37:18.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Core\\Usuario.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Entidades\\Core\\Usuario.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Core\\Usuario.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.Entidades\\Core\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T06:16:51.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Delete.cshtml",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Delete.cshtml",
+              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Views\\Cliente\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T04:07:24.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\Views\\Web.config",
+              "RelativeDocumentMoniker": "ApiUsuario\\Views\\Web.config",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\Views\\Web.config",
+              "RelativeToolTip": "ApiUsuario\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-28T04:16:14.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Core\\Cliente.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Entidades\\Core\\Cliente.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Core\\Cliente.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.Entidades\\Core\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T03:33:39.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Usuario\\Create.cshtml",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Usuario\\Create.cshtml",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Usuario\\Create.cshtml",
+              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Views\\Usuario\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T06:17:07.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T21:44:50.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Controllers\\LoginController.cs",
@@ -230,12 +442,11 @@
               "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:58:47.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T05:58:47.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\Global.asax.cs",
               "RelativeDocumentMoniker": "ApiUsuario\\Global.asax.cs",
@@ -243,12 +454,11 @@
               "RelativeToolTip": "ApiUsuario\\Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T03:39:56.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T03:39:56.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ApiUsuario\\Controllers\\HomeController.cs",
@@ -260,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "ApiUsuario\\App_Start\\WebApiConfig.cs",
@@ -272,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "FilterConfig.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\App_Start\\FilterConfig.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\App_Start\\FilterConfig.cs",
@@ -284,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 30,
               "Title": "PaginaNoEncontrada.cshtml",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Home\\PaginaNoEncontrada.cshtml",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Home\\PaginaNoEncontrada.cshtml",
@@ -296,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Global.asax.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Global.asax.cs",
@@ -308,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\ApiUsuario\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "ApiUsuario\\App_Start\\RouteConfig.cs",
@@ -320,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "Error500.cshtml",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Home\\Error500.cshtml",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Home\\Error500.cshtml",
@@ -332,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "ExceptionFilterAtributes.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Filter\\ExceptionFilterAtributes.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Entidades\\Filter\\ExceptionFilterAtributes.cs",
@@ -344,31 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OpcionLN.cs",
-              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\OpcionLN.cs",
-              "RelativeDocumentMoniker": "MiBotica.SolPedido.LogicaNegocio\\Core\\OpcionLN.cs",
-              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\OpcionLN.cs",
-              "RelativeToolTip": "MiBotica.SolPedido.LogicaNegocio\\Core\\OpcionLN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:53:02.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UsuarioLN.cs",
-              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\UsuarioLN.cs",
-              "RelativeDocumentMoniker": "MiBotica.SolPedido.LogicaNegocio\\Core\\UsuarioLN.cs",
-              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.LogicaNegocio\\Core\\UsuarioLN.cs",
-              "RelativeToolTip": "MiBotica.SolPedido.LogicaNegocio\\Core\\UsuarioLN.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:43:15.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Shared\\_Layout.cshtml",
@@ -380,32 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OpcionDA.cs",
-              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.AccesoDatos\\Core\\OpcionDA.cs",
-              "RelativeDocumentMoniker": "MiBotica.SolPedido.AccesoDatos\\Core\\OpcionDA.cs",
-              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.AccesoDatos\\Core\\OpcionDA.cs",
-              "RelativeToolTip": "MiBotica.SolPedido.AccesoDatos\\Core\\OpcionDA.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:10:28.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Web.config",
-              "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Web.config",
-              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Web.config",
-              "RelativeToolTip": "MiBotica.SolPedido.Cliente.Web\\Web.config",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-27T21:34:24.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Controllers\\HomeController.cs",
@@ -417,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "BaseLN.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\Base\\BaseLN.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Entidades\\Base\\BaseLN.cs",
@@ -429,19 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UsuarioDA.cs",
-              "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.AccesoDatos\\Core\\UsuarioDA.cs",
-              "RelativeDocumentMoniker": "MiBotica.SolPedido.AccesoDatos\\Core\\UsuarioDA.cs",
-              "ToolTip": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.AccesoDatos\\Core\\UsuarioDA.cs",
-              "RelativeToolTip": "MiBotica.SolPedido.AccesoDatos\\Core\\UsuarioDA.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAkwF0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T22:03:17.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Web.config",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Web.config",
@@ -453,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "MenuHelper.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Utiles\\Helpers\\MenuHelper.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Utiles\\Helpers\\MenuHelper.cs",
@@ -465,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "fixed.html",
               "DocumentMoniker": "C:\\Users\\JimXL\\Desktop\\AdminLTE-2.4.3\\AdminLTE-2.4.3\\pages\\layout\\fixed.html",
               "RelativeDocumentMoniker": "..\\..\\Users\\JimXL\\Desktop\\AdminLTE-2.4.3\\AdminLTE-2.4.3\\pages\\layout\\fixed.html",
@@ -477,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Home\\Index.cshtml",
@@ -489,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Login\\Index.cshtml",
@@ -501,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "VariablesWeb.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Entidades\\VariablesWeb.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Entidades\\VariablesWeb.cs",
@@ -513,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "EncriptacionHelper.cs",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Utiles\\Helpers\\EncriptacionHelper.cs",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Utiles\\Helpers\\EncriptacionHelper.cs",
@@ -525,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "_LayoutLogin.cshtml",
               "DocumentMoniker": "C:\\ProyectoClase\\SolPerdidos\\MiBotica.SolPedido.Cliente.Web\\Views\\Shared\\_LayoutLogin.cshtml",
               "RelativeDocumentMoniker": "MiBotica.SolPedido.Cliente.Web\\Views\\Shared\\_LayoutLogin.cshtml",
@@ -537,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "login.html",
               "DocumentMoniker": "C:\\Users\\JimXL\\Desktop\\AdminLTE-2.4.3\\AdminLTE-2.4.3\\pages\\examples\\login.html",
               "RelativeDocumentMoniker": "..\\..\\Users\\JimXL\\Desktop\\AdminLTE-2.4.3\\AdminLTE-2.4.3\\pages\\examples\\login.html",
